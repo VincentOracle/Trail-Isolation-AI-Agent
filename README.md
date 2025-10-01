@@ -28,12 +28,22 @@ This project implements an intelligent AI agent for **Trail Isolation**, a strat
 ## 🎮 Game Rules
 
 **Trail Isolation** is played on an N×N grid with these key rules:
+<img width="486" height="487" alt="trail_0" src="https://github.com/user-attachments/assets/4cbfa8e1-105d-45ee-8f46-9449db86b839" />
+
+<img width="485" height="485" alt="trail_1" src="https://github.com/user-attachments/assets/79ed3f25-2279-4336-9c8b-f49a8f8e6976" />
 
 - **Players**: Two players each control a queen
 - **Movement**: Queens move like chess queens (any number of squares horizontally, vertically, or diagonally)
-- **Blocking**: 
+- **Blocking**:
+<img width="479" height="481" alt="1" src="https://github.com/user-attachments/assets/99e587c0-3f50-47c6-9038-949cbca5e6b3" />
+
   - Starting square becomes permanently blocked after moving
+<img width="523" height="527" alt="2" src="https://github.com/user-attachments/assets/6d410104-cd61-4aa6-923c-a09a2b9fb4b4" />
+
   - Path squares (trail) become temporarily blocked for opponent's next turn only
+
+    <img width="522" height="523" alt="3" src="https://github.com/user-attachments/assets/4ad1e630-c29b-4070-9fe0-2feefa25c745" />
+
 - **Objective**: Force opponent into a position with no legal moves
 - **Loss Condition**: Player with no legal moves loses immediately
 
@@ -65,7 +75,7 @@ This project implements an intelligent AI agent for **Trail Isolation**, a strat
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/VincentOracle/Trail-Isolation-AI-Agent.git
    cd assignment_2
    ```
 
