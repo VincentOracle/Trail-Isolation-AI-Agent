@@ -28,6 +28,7 @@ This project implements an intelligent AI agent for **Trail Isolation**, a strat
 ## 🎮 Game Rules
 
 **Trail Isolation** is played on an N×N grid with these key rules:
+
 <img width="486" height="487" alt="trail_0" src="https://github.com/user-attachments/assets/4cbfa8e1-105d-45ee-8f46-9449db86b839" />
 
 <img width="485" height="485" alt="trail_1" src="https://github.com/user-attachments/assets/79ed3f25-2279-4336-9c8b-f49a8f8e6976" />
