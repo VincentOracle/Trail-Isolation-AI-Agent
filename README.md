@@ -35,14 +35,16 @@ This project implements an intelligent AI agent for **Trail Isolation**, a strat
 - **Players**: Two players each control a queen
 - **Movement**: Queens move like chess queens (any number of squares horizontally, vertically, or diagonally)
 - **Blocking**:
+  
 <img width="479" height="481" alt="1" src="https://github.com/user-attachments/assets/99e587c0-3f50-47c6-9038-949cbca5e6b3" />
 
   - Starting square becomes permanently blocked after moving
+  - 
 <img width="523" height="527" alt="2" src="https://github.com/user-attachments/assets/6d410104-cd61-4aa6-923c-a09a2b9fb4b4" />
 
   - Path squares (trail) become temporarily blocked for opponent's next turn only
 
-    <img width="522" height="523" alt="3" src="https://github.com/user-attachments/assets/4ad1e630-c29b-4070-9fe0-2feefa25c745" />
+<img width="522" height="523" alt="3" src="https://github.com/user-attachments/assets/4ad1e630-c29b-4070-9fe0-2feefa25c745" />
 
 - **Objective**: Force opponent into a position with no legal moves
 - **Loss Condition**: Player with no legal moves loses immediately
